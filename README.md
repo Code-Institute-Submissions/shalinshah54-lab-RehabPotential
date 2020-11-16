@@ -159,17 +159,83 @@ User Story Testing
 
 #### Further Testing
 
+* The project was tested in the following browsers with success, Google Chrome, Microsoft Edge, Mozilla Firefox and Opera.
+*  Projects was manually tested on Samsung Note 9, Samsung S9, Samsung TabA and Hp laptop 11 inch screen.
+* Google Chrome Developer tools were used throughout the project to help me to test the responsiveness across devices.
+* Google Chrome Developer tools used to emulate devices,
+     * Moto G4
+     * Galaxy S5 
+     * Pixel 2
+     * Pixel 2 XL
+     * iPhone 5/SE
+     * iPhone 6/7/8
+     * iPhone 6/7/8 plus
+     * iPhone X
+     * iPad 
+     * iPad pro
+     * Galaxy Fold
 
-1. [Markup validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F)
-     1.  [home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#textarea)
+I used W3C Markup Validator and W3C Validator to validate every page of the project to ensure there were no syntax errors in the project.
 
-     1. [about page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#textarea)
+1. [Markup validator Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F)
+     1.  [home page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#textarea)
 
-     1. [services page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#l84c10)
-     1. [contact page](https://validator.w3.org/nu/#l65c110)
+     1. [about page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#textarea)
+
+     1. [services page Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#l84c10)
+     1. [contact page Result](https://validator.w3.org/nu/#l65c110)
 
 2.  [W3C CSS Validator Result](https://jigsaw.w3.org/css-validator/validator)
 
-     1. [Validator CSS result](https://validator.w3.org/nu/#textarea)
+     1. [Validator CSS Result](https://validator.w3.org/nu/#textarea)
+
+#### Known Bugs and Fixes
+
+* The hero image takes a fews sec. to upload, after adjusting the time for animation it works better.
+
+* The navbar extended with the gap in between the navbar and the drop down. 
+     * It was fixed using the Google Chrome developer tool to spot the css problem with the margin-bottom.
+* On wide screen resolution by minimizing the screen at 775px just before the navbar toggler icon appears the navbar items break for a sec. 
+* On Chrome Dev Tool, on mobile view for Galaxy Fold the navbar moves to the left and the extended drop down box detaches from the navigation bar.
+* The jumbotron on the home page with the quote appeared like a container fluid stretching from left to right.
+     * By removing the padding, margin and making the background-color to transparent.
+* By Using the jumbotron the text on the large screen appears to be properly placed but on the mobile devices the texts would drop down onto the footer. 
+      * So by adjusting the font- size the text is fixed on the mobile screens.
+*  W3C Makrup Validator flagged up errors on improper placing the closing tag. The tags were adjusted and porper placed.
+* W3C CSS validator presented with wrong use of the code. float:center; instead this was not needed in the style.
+
+## Deployment
+
+**GitHub**
+
+This project is deployed using GitHub pages using the following process,
+
+**Deplying a GitHub Repository** 
+
+1. In your Repository section, select the Repository you wish to deploy.
+1. In the top horizontal Menu, locate and click the *Settings* link.
+1. Inside the *Setting* page, about almost at the end you'll see GitHub Pages Section.
+1. Under Source , select the None tab and change it to the Main and click *Save*.
+1. Finally once the page resets scroll back down to the Github Pages Section to seee the following message "Your site is ready to be published at (link to the GitHub Page Web Address). It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
+
+**Forking the GitHub Repository**
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the repository in your GitHub account.
+
+1. Find the GitHub repository.
+1. At the top of the page to the right, under your account, click the *Fork* button.
+1. Your will now have a copy of the repository in your GitHub account.
+
+**Making a Local Clone**
+
+1. Find the GitHub Repository.
+1. Click the Code button.
+1. Copy the link shown.
+1. In Gitpod, change the directory to the location you would like the cloned directory to be located.
+1. Type git clone, and *paste* the link you copied in step 3.
+1. Press *Enter* to have the local clone created.
+
+
+## Credits
 
 
