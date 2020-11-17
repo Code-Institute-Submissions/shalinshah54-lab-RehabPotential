@@ -238,4 +238,36 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 
 ## Credits
 
+ **Code :**
+* Code Institute 
+     *Thank you to Code Institute for all the videos and helping understand all the different types of mini projects with all the videos indifferent aspects.
+* Harry Dhillon
+     * Helping with ideas and readme.md file.
+* Sandeep, Aggarwal, Code Institute
+     * Helping me make few changes with the layout and helping me fix the extended navigation drop down by making me understand how to fix the margin.
+* Bootstrap 
+     * Bootstrap library used throughtout the project mainly to make site responsive using the Bootstrap Grid System.
+* Murach's HTML5 and CSS3 
+     * the reference guide helping in detail understanding of the HTML and CSS concepts.
 
+**Content :**
+
+* Wikipedia 
+     * helping understand the concepts of different codes, elements, attributes, CSS styling.
+* W3C school
+     * helping with the HTML codes and CSS style and how the styling will look like with an example.
+* Google
+     * thanks to google for making search easier in every single field of coding. 
+* Academind (youtuber) 
+     * thanks to an youtuber for helping with bootstrap navbar making it responsive. 
+* Images
+     * Home page image :
+          * thanks to pain free physiotherapy clinic.
+             [Copyrights](https://support.google.com/legal/answer/3463239?hl=en)                    
+     * About page image :
+          * thanks to  Dioni De Guzman,PT and [hipwallpaper](https://hipwallpaper.com/physical-therapy-desktop-backgrounds/)
+     * Service page image :
+          * thanks to Ryan, Cunningham and [hipwallpaper](https://hipwallpaper.com/massage-therapy-wallpapers/)    
+
+I would like to take few seconds to thank my mentor and instructors who have put together all the videos the materials for helping all the students throught this journey. 
+## Thank You
