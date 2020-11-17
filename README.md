@@ -11,7 +11,7 @@ Reason of this project is to put all what I learned and understood, the concepts
 I will run you through the steps to my project and putting all the efforts behind the design along with the user experience.
 
 Thank You for all your help for which I was able to put together my very first project
-link goes here
+[RehabPotential](https://shalinshah54-lab.github.io/RehabPotential/rehab.html)
 
 ## UX - User Experience design
 
@@ -98,7 +98,7 @@ The text is consistant throughout all the pages mostly consisting information of
 
 Below is a link to the initial draft of the wireframe I created for the project and an initial conceptual idea of how everything would respond on different devices.
 
-[RehabPotentialWireframe](/images/RehabPotentialWireframe.pdf)
+[RehabPotentialWireframe](assets/images/RehabPotentialWireframe.pdf)
 
 * Home page contains an image with a jumbotron containing quote. The jumbotron is transparent using CSS styling.
 * The image on home page contains in - out animation which stands out when you load the page.
