@@ -65,22 +65,23 @@ button:focus {
 
 #hero-outer {
     width: 100%;
-    height: 600px;
+    height: 700px;
     overflow: hidden;
 }
 .hero-image {
     background: url("../images/physicaltherapy.jpg") no-repeat bottom right fixed;
-    min-height: 400px;
+    min-height: 500px;
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-size: cover;
+    
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     animation: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 

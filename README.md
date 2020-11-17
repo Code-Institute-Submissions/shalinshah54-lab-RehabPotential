@@ -203,6 +203,10 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
       * So by adjusting the font- size the text is fixed on the mobile screens.
 *  W3C Makrup Validator flagged up errors on improper placing the closing tag. The tags were adjusted and porper placed.
 * W3C CSS validator presented with wrong use of the code. float:center; instead this was not needed in the style.
+* With the validator there was an error of <!-------->, I used <!----->.
+* On the contact.html page the first name fill box was not aligned to other content. Fixed by adding a col class with others to line them up.
+* When using the samsung S9 the icon with social media appeared as an X with no icon present. 
+* When using the iphone all the images appear close up on all the pages.
 
 ## Deployment
 
@@ -212,7 +216,7 @@ This project is deployed using GitHub pages using the following process,
 
 **Deplying a GitHub Repository** 
 
-1. In your Repository section, select the Repository you wish to deploy.
+1. In your Repository section, select the [GitHub Repository](https://github.com/shalinshah54-lab/RehabPotential.git) you wish to deploy.
 1. In the top horizontal Menu, locate and click the *Settings* link.
 1. Inside the *Setting* page, about almost at the end you'll see GitHub Pages Section.
 1. Under Source , select the None tab and change it to the Main and click *Save*.
