@@ -69,7 +69,7 @@ button:focus {
     overflow: hidden;
 }
 .hero-image {
-    background: url("../images/physicaltherapy.jpg") no-repeat bottom right fixed;
+    background: url("../images/physicaltherapy.jpg") no-repeat center center;
     min-height: 500px;
     width: 100%;
     height: 500px;
@@ -103,11 +103,11 @@ button:focus {
 }
 
 .quote {
-    color: #080808;
+    color: #383177;
 }
 
 .therapy-quote {
-    color: #080808;
+    color: #383177;
 }
 /*information*/
 .container-fluid {

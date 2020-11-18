@@ -37,9 +37,6 @@ The inspotation and planning of the priject was from the patients  themselves. T
 * I want the user experience to be same on all devices.
 * I want to user to read the text without feeling bored.
 * I want to images, text, therapy quotes and page presentation to be reinforcing to come back to the site.
-
-#### Returning Vistitors :-
-
 * I want the visitor to contact the creator through the social links and contact page.
 * I wan them to give feebback on there returning experience.
 
@@ -73,9 +70,10 @@ The first step for my research was visiting physical therapy sites and knowing d
 
 * Black 
 * Grey
-* Shades of Orange
+* Shade of Orange
 * White 
 * Yellow
+* Shade of Purple 
 
 Black background to start with to make the images and text stand out more by giving the page the depth and drawing attention.
 
@@ -106,6 +104,7 @@ Below is a link to the initial draft of the wireframe I created for the project 
 * There is an alert on the top of the screen which is added using bootstrap to alert the users for any updating changes.
 * Company name(logo) is a hyperlink which can bring you back to the home page at anytime.
 * The contact us page presents with an fill up form with message. If the required fields are not filled a message will show to enter the required field. 
+* Social Media Links in the footer opens up with a new blank page and links to an account. 
 
 ### Features to Implement :
 
@@ -207,6 +206,7 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
 * On the contact.html page the first name fill box was not aligned to other content. Fixed by adding a col class with others to line them up.
 * When using the samsung S9 the icon with social media appeared as an X with no icon present. 
 * When using the iphone all the images appear close up on all the pages.
+* In the social media links the facebook, twitter and instagram are linked to personal accounts since the company account has not been created. The linkedin link is used as a company account. 
 
 ## Deployment
 
