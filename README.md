@@ -86,7 +86,7 @@ I used Itim script throughout all the pages which looks fancy and also easy for 
 
 I also used Montserrat script in the heading of the information is provided to have the heading with different text to have it stand out more.
 
-Navigation bar is fixed to the top as the page moves up and down where you can use the navigation bar anytime without having to scroll back up.
+Navigation bar is fixed to the top as the page moves up and down where you can use the navigation bar anytime without having to scroll back up. The navigation bar changes to toggler with an toggler icon at 765px, which means any devices 
 
 Social Media links in the footer with a simple color combination will help user with attractive eye catching icons which upon clicking will direct them to the blank page regarding there individual sites.
 
@@ -205,7 +205,8 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
 * With the validator there was an error of <!-------->, I used <!----->.
 * On the contact.html page the first name fill box was not aligned to other content. Fixed by adding a col class with others to line them up.
 * When using the samsung S9 the icon with social media appeared as an X with no icon present. 
-* When using the iphone all the images appear close up on all the pages.
+* When using the iphone 8 plus all the images appear close up on all the pages. Fix by changing the image to center.
+* When using different mobile devices I have observed that in the about page the last paragraph drops down into the footer section. Attempted to fix it by correcting the margin-top for the paragraph.
 * In the social media links the facebook, twitter and instagram are linked to personal accounts since the company account has not been created. The linkedin link is used as a company account. 
 
 ## Deployment
@@ -247,11 +248,9 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
      *Thank you to Code Institute for all the videos and helping understand all the different types of mini projects with all the videos indifferent aspects.
 * Harry Dhillon
      * Helping with ideas and readme.md file.
-* Sandeep, Aggarwal, Code Institute
-     * Helping me make few changes with the layout and helping me fix the extended navigation drop down by making me understand how to fix the margin.
 * Bootstrap 
      * Bootstrap library used throughtout the project mainly to make site responsive using the Bootstrap Grid System.
-* Murach's HTML5 and CSS3 
+* [Murach's HTML5 and CSS3](https://www.murach.com/shop/murachs-html5-and-css3-4th-edition-detail) 
      * the reference guide helping in detail understanding of the HTML and CSS concepts.
 
 **Content :**
@@ -266,7 +265,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
      * thanks to an youtuber for helping with bootstrap navbar making it responsive. 
 * Images
      * Home page image :
-          * thanks to pain free physiotherapy clinic.
+          * thanks to [pain free physiotherapy clinic](https://sites.google.com/site/painfreephysiotherapyindelhi/)
              [Copyrights](https://support.google.com/legal/answer/3463239?hl=en)                    
      * About page image :
           * thanks to  Dioni De Guzman,PT and [hipwallpaper](https://hipwallpaper.com/physical-therapy-desktop-backgrounds/)
