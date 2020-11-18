@@ -69,7 +69,7 @@ button:focus {
     overflow: hidden;
 }
 .hero-image {
-    background: url("../images/physicaltherapy.jpg") no-repeat center center;
+    background: url("../images/physicaltherapy.jpg") no-repeat center fixed;
     min-height: 500px;
     width: 100%;
     height: 500px;
