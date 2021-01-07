@@ -47,6 +47,8 @@ nav {
     font-size: 25px;
     letter-spacing: 3px;
     text-transform: uppercase;
+    color: rgb(219, 199, 199);
+     ;
 }
 
 /*-collapse navbar-*/
@@ -388,6 +390,25 @@ p {
     line-height: 17px;
     }
 }
+
+@media screen and (max-width: 356px){
+    .about {
+    font-size: 15px;
+    color: rgb(219, 199, 199);
+    padding-top: 15px;
+    height: 400px;
+    }
+    
+    h2 {
+    font-size: 15px;
+    }
+
+    p {
+    font-size: 14px;
+    margin-top: 8px;
+    line-height: 15px;
+    }
+}
 .block-divider-about {
     width: 100px;
     height: 5px;
@@ -401,35 +422,44 @@ p {
 /*-footer-*/
 
 footer {
-    background-color: #777777;
+    background-color: #343a40;;
+    height: 35%;
+    width: 100%;
+    padding-top: 10px;
+
 }
 
 .company-address {
-    font-size: 200%;
+    font-size: 100%;
     letter-spacing: 2px;
     color: rgb(219, 199, 199);
 }
 
-.company-address h5 {
+.company-address p {
     font-size: 100%;
     letter-spacing: 2px;
-    display: flex;
-    justify-items: flex-start;
+    padding: 20px 50px;
 }
 
-.social-media.company-address {
+.social  {
     display: flex;
-    text-transform: uppercase;
-    align-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    
 }
 
 .social-media {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-content: space-around;
     color: rgb(219, 199, 199);
-
 }
 
+
 .social-media-inline {
-    padding-bottom: 35px;
+    padding-bottom: 100px;
 }
 
 .social-media-inline li a i {
@@ -443,22 +473,28 @@ footer {
     color: rgb(219, 199, 199);
     background: #080808;
 }
+.company-address .social-media-inline {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 .block-divider {
-    width: 200px;
-    height: 8px;
+    width: 500px;
+    height: 5px;
     border: 0px;
     background-color: rgb(219, 199, 199);
     border-radius: 5px;
+    
 }
 
 /*-Contact-*/
 
 
 .btn {
-  background-color: #6cd268;
+  background-color: rgb(219, 199, 199);
   color: #777777;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .btn:hover {
