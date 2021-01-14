@@ -76,18 +76,19 @@ button:focus {
     overflow: hidden;
 }
 .hero-image {
-    background: linear-gradient(rgba(29, 28, 28, 0.6),rgba(29, 28, 28, 0.6)), url("../images/exe1.jpg") no-repeat top center;
+    background: linear-gradient(rgba(29, 28, 28, 0.5),rgba(29, 28, 28, 0.5)), url("../images/exe1.jpg") no-repeat top center;
     width: 100%;
-    height: 500px;
+    height: 700px;
+    margin-top: 45px;
     overflow: none;
     animation: hero-zoom;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom{
      from{
-         transform: scale(1);
+         transform: scale(0);
 
      }
      to{
@@ -109,14 +110,13 @@ button:focus {
         text-align: center;
     }
     .hero-image {
-    background: linear-gradient(rgba(29, 28, 28, 0.6),rgba(29, 28, 28, 0.6)), url("../images/exe1.jpg") no-repeat top center fixed;
-    min-height: 200px;
+    background: linear-gradient(rgba(29, 28, 28, 0.5),rgba(29, 28, 28, 0.5)), url("../images/exe1.jpg") no-repeat top center;
     width: 100%;
-    height: 200px;
-    background-size: auto;
+    height: 700px;
+    margin-top: 45px;
     overflow: none;
     animation: hero-zoom;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 .therapy-quote {
@@ -243,11 +243,13 @@ button:focus {
 .fa-dumbbell {
     color: rgb(219, 199, 199);
     padding-right: 5px;
+    padding-top: 30px;
 }
 
 .fa-users {
     color: rgb(219, 199, 199);
     padding-right: 5px;
+    padding-top: 30px;
 }
 
 .fa-clinic-medical {
@@ -267,41 +269,41 @@ button:focus {
 /*-Services-*/
 
 .img-thumbnail{
-    background: url("../images/tele.jpg")border-box center;
+    background: url("../images/tele.jpg")no-repeat center center;
     max-width: 100%;
     height: 400px;
+    margin-top: 25px;
     padding: 10px 20px;
-    margin-top: 30px;
-    border-radius: 30px;
+    border-radius: 50px;
     opacity: 0.78;
 }
 
 .img-thumbnail-1{
-    background: url("../images/homecare.jpg")border-box center;
+    background: url("../images/homecare.jpg")no-repeat center center;
     max-width: 100%;
     height: 400px;
+    margin-top: 25px;
     padding: 10px 20px;
-    margin-top: 30px;
-    border-radius: 30px;
+    border-radius: 50px;
     opacity: 0.78;
 }
 .img-thumbnail-2 {
-    background: url("../images/logo.jpg")border-box center; 
+    background: url("../images/logo.jpg")no-repeat center center; 
     max-width: 100%;
     height: 400px;
+    margin-top: 25px;
     padding: 10px 20px;
-    margin-top: 30px;
-    border-radius: 30px;
+    border-radius: 50px;
     opacity: 0.78;
 }
 
 .img-thumbnail-3 {
-    background: url("../images/slip1.jpg")border-box center center; 
+    background: url("../images/slip1.jpg")no-repeat center center; 
     max-width: 100%;
     height: 400px;
+    margin-top: 25px;
     padding: 10px 20px;
-    margin-top: 30px;
-    border-radius: 30px;
+    border-radius: 50px;
     opacity: 0.78;
 }
 /*-Credit to Dioni De Guzman,PT and Hipwallpaper.com-*/
@@ -426,6 +428,7 @@ footer {
     height: 35%;
     width: 100%;
     padding-top: 10px;
+    margin-bottom: none;
 
 }
 
@@ -480,7 +483,7 @@ footer {
 }
 
 .block-divider {
-    width: 500px;
+    width: 100px;
     height: 5px;
     border: 0px;
     background-color: rgb(219, 199, 199);
