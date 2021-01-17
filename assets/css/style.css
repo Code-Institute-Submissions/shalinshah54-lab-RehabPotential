@@ -270,41 +270,46 @@ button:focus {
 
 .img-thumbnail{
     background: url("../images/tele.jpg")no-repeat center center;
-    max-width: 100%;
+    width: 80%;
     height: 400px;
     margin-top: 25px;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 100px;
     opacity: 0.78;
+    margin-left: 60px;
 }
 
 .img-thumbnail-1{
     background: url("../images/homecare.jpg")no-repeat center center;
-    max-width: 100%;
+    width: 80%;
     height: 400px;
     margin-top: 25px;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 100px;
     opacity: 0.78;
+    margin-left: 60px;
+    object-fit: contain;
 }
 .img-thumbnail-2 {
-    background: url("../images/logo.jpg")no-repeat center center; 
-    max-width: 100%;
+    background: url("../images/op1.jpg")no-repeat left center; 
+    width: 80%;
     height: 400px;
     margin-top: 25px;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 100px;
     opacity: 0.78;
+    margin-left: 60px;
 }
 
 .img-thumbnail-3 {
     background: url("../images/slip1.jpg")no-repeat center center; 
-    max-width: 100%;
+    width: 80%;
     height: 400px;
     margin-top: 25px;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 100px;
     opacity: 0.78;
+    margin-left: 60px;
 }
 /*-Credit to Dioni De Guzman,PT and Hipwallpaper.com-*/
 
