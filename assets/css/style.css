@@ -145,6 +145,7 @@ button:focus {
 .information{
     width: 100%;
     height: 300px;
+    font-size: 20px;
     background-color:transparent;
     text-align: center;
     padding-top: 15px;
@@ -158,21 +159,57 @@ button:focus {
     display: inline;
     font-family: "Montserrat", sans-serif;
     color:rgb(219, 199, 199);
-    font-size: 30px
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .information-heading-list {
      color: rgb(219, 199, 199);
-     font-size: 18px;
+     font-size: 25px;
+     font-weight: bold;
 }
 
 .heading-list-items {
     color:rgb(219, 199, 199);
-    font-size: 17px;
+    font-size: 25px;
+     font-weight: bold;
+}
+
+.information-para {
+     color: rgb(219, 199, 199);
+     font-size: 20px;
+     font-weight: bold;
+
+}
+@media screen and (max-width:864px){
+     .information{
+    width: 100%;
+    height: 325px;
+    background-color:transparent;
+    text-align: center;
+    padding-top: 15px;
+    background-size: cover;
+    padding-bottom: 50px;
+    }
+    .information-heading {
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    color:rgb(219, 199, 199);
+    font-size: 35px
+}
+.information-heading-list {
+     color: rgb(219, 199, 199);
+     font-size: 21px;
+}
+
+.heading-list-items {
+    color:rgb(219, 199, 199);
+    font-size: 21px;
 }
 
 .information-para {
     color: rgb(219, 199, 199);
     font-size: 17px;
+    }
 }
 @media screen and (max-width:532px){
      .information{
@@ -204,6 +241,38 @@ button:focus {
     color: rgb(219, 199, 199);
     font-size: 15px;
     }
+        @media screen and (max-width: 360px){
+      .information{
+    width: 100%;
+    height: 300px;
+    background-color:transparent;
+    text-align: center;
+    padding-top: 15px;
+    background-size: cover;
+    padding-bottom: 50px;
+    }
+    .information-heading {
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    color:rgb(219, 199, 199);
+    font-size: 23px
+}
+.information-heading-list {
+     color: rgb(219, 199, 199);
+     font-size: 13px;
+}
+
+.heading-list-items {
+    color:rgb(219, 199, 199);
+    font-size: 12px;
+}
+
+.information-para {
+    color: rgb(219, 199, 199);
+    font-size: 12px;
+    }   
+}
+
     @media screen and (max-width: 280px){
       .information{
     width: 100%;
@@ -234,8 +303,8 @@ button:focus {
     color: rgb(219, 199, 199);
     font-size: 12px;
     }   
-        
-    }   
+}
+
 }
 
 /*-services-*/
@@ -243,13 +312,13 @@ button:focus {
 .fa-dumbbell {
     color: rgb(219, 199, 199);
     padding-right: 5px;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 .fa-users {
     color: rgb(219, 199, 199);
     padding-right: 5px;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 .fa-clinic-medical {
@@ -268,61 +337,102 @@ button:focus {
 }
 /*-Services-*/
 
-.img-thumbnail{
+.thumbnail{
     background: url("../images/tele.jpg")no-repeat center center;
     width: 80%;
     height: 400px;
     margin-top: 25px;
     padding: 10px 20px;
-    border-radius: 100px;
+    border-radius: 150px;
     opacity: 0.78;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
-.img-thumbnail-1{
+.thumbnail-1{
     background: url("../images/homecare.jpg")no-repeat center center;
     width: 80%;
     height: 400px;
     margin-top: 25px;
     padding: 10px 20px;
-    border-radius: 100px;
+    border-radius: 150px;
     opacity: 0.78;
-    margin-left: 60px;
-    object-fit: contain;
+    margin-left: 40px;
+    background-size: 595px, 400px;
+    
 }
-.img-thumbnail-2 {
-    background: url("../images/op1.jpg")no-repeat left center; 
+.thumbnail-2 {
+    background: url("../images/op1.jpg")no-repeat center center;
     width: 80%;
     height: 400px;
     margin-top: 25px;
     padding: 10px 20px;
-    border-radius: 100px;
+    border-radius: 150px;
     opacity: 0.78;
-    margin-left: 60px;
+    margin-left: 40px;
+    background-size: 495px, 400px;
 }
 
-.img-thumbnail-3 {
+.thumbnail-3 {
     background: url("../images/slip1.jpg")no-repeat center center; 
     width: 80%;
     height: 400px;
     margin-top: 25px;
     padding: 10px 20px;
-    border-radius: 100px;
+    border-radius: 150px;
     opacity: 0.78;
-    margin-left: 60px;
+    margin-left: 40px;
+    background-size: 495px, 400px;
 }
+
+ @media screen and (max-width: 768px){
+     .thumbnail-2 {
+    background: url("../images/op1.jpg")no-repeat center center;
+    width: 80%;
+    height: 550px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 150px;
+    opacity: 0.78;
+    margin-left: 40px;
+    background-size: 600px, 400px;
+}
+    .thumbnail-3 {
+    background: url("../images/slip1.jpg")no-repeat center center; 
+    width: 80%;
+    height: 400px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 150px;
+    opacity: 0.78;
+    margin-left: 40px;
+    background-size: 605px, 400px;
+}
+ }
 /*-Credit to Dioni De Guzman,PT and Hipwallpaper.com-*/
 
 /*--about--*/
 
 .relaxation {
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url("../images/exe2.jpg") no-repeat top center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url("../images/exe2.jpg") no-repeat center center;
     width: 100%;
     height: 800px;
     background-size: cover;
     opacity: 0.85;
     padding-bottom: 10px;
+    background-size: 1275px;
     }
+
+@media screen and (max-width: 475px) {
+    .relaxation {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url("../images/exe2.jpg") no-repeat center center;
+    width: 100%;
+    height: 800px;
+    background-size: contain;
+    opacity: 0.85;
+    padding-bottom: 10px;
+    background-size: 500px,1200px;
+    }
+}    
 /*Credit to Ryan, Cunningham and Hipwallpaper.com*/
 
 
@@ -407,7 +517,7 @@ p {
     }
     
     h2 {
-    font-size: 15px;
+    font-size: 13px;
     }
 
     p {
@@ -466,9 +576,6 @@ footer {
 }
 
 
-.social-media-inline {
-    padding-bottom: 100px;
-}
 
 .social-media-inline li a i {
     width: 30px;
@@ -498,7 +605,29 @@ footer {
 
 /*-Contact-*/
 
+.contact {
+    font-size: 38px;
+    color: rgb(219, 199, 199);
+}
+.name {
+     font-size: 35px;
+     color: rgb(219, 199, 199);
+}
 
+.last-name{
+     font-size: 35px;
+     color: rgb(219, 199, 199);
+}
+
+.email {
+    font-size: 35px;
+    color: rgb(219, 199, 199);
+}
+
+.msg {
+    font-size: 35px;
+    color: rgb(219, 199, 199);
+}
 .btn {
   background-color: rgb(219, 199, 199);
   color: #777777;
