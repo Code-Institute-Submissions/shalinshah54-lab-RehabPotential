@@ -13,23 +13,36 @@ I will run you through the steps to my project and putting all the efforts behin
 Thank You for all your help for which I was able to put together my very first project
 [RehabPotential](https://shalinshah54-lab.github.io/RehabPotential/rehab.html)
 
-## UX - User Experience design
+# UX - User Experience design
 
-### Goals for creating the poject :-
+The inspiration and planning of the project was from the patients themselves. They alway wanted to know more about the clinic and there features. Thats what made me think to make an user friendly informative project that can be easily navigated without difficulty for old and disable patients.
 
-The inspotation and planning of the priject was from the patients  themselves. They alway wanted to know more about the clinic and there features. Thats what made me think to make an user friendly informative project that can be easily navigated without difficulty for old and disable patients.  
+The planning of the project is broken into 5 planes;
 
-### Creator Story :-
+* The Strategy Plane
+* The Scope plane
+* The Structure Plane
+* The Skeleton Plane
+* The Surface Plane
+
+
+# **Strategy Plane**
+
+The goal as a creator of my project is to act as a requirment of the patients.
+
+## *Creator Stories*
+
+### *Creator Goals* :-
 
 * I wanted the project to b pleasing to the eyes at first glance.
 * I wanted the project to be easily navigated on different platforms(mobile, tablets, laptops and desktops).
 * I wanted easiy language text so the users can read without difficulties.
 * I wanted to alert the users due to the pandemic COVID-19 the safety precautions prior to coming into the clinic.
-*I want all text and quotesto be properly placed and the shouldn't feel out of place as soon as they land on the page.
+* I want all text and quotesto be properly placed and the shouldn't feel out of place as soon as they land on the page.
 
-### User Story :-
+## *User Stories*
 
-#### First Time Visitors
+### *First Time Visitors* :-
 
 * As per the visitors, I want there experience to be user friendly.
 * I want them to be easily navigate through the pages using the navigation bar.
@@ -40,33 +53,55 @@ The inspotation and planning of the priject was from the patients  themselves. T
 * I want the visitor to contact the creator through the social links and contact page.
 * I wan them to give feebback on there returning experience.
 
+### *Returning visitor goals* :-
+
+* As a returning visitor, I want to be able to get in contact with the creator or creators in some way, social links, or contact page.
+* As a returning visitor, I want to be able to cite the information or find out where the source  of the information came from.
+
+From my user stories, I am better able to come up with a conceptual idea of what the project needs in terms of features have more priority.
+During my initial planning for the prject, to make the project regarding a Physical Therapy Site I had to understand the patient and the society, there think on Out Patient Clinics. So I decided to research and ask question to my current clients, our staff who everyday see the needs of the patients. By putting all this together I was able to better understand the needs of this project.
+I also would liked to know what all things the society is interested in for this type of sites. 
+After asking questions I came to know that clients and society would like to know :
+* How is the Clinic which they might come for needs.
+* How is the staff which is going to provide care to them.
+* What all types of equiptments are used, is there any one on one therapy.
+* What kind of skills the therapist have.
+* If for any reason they need to contact where they can leave a msg.
+
+
+# **Scope Plane**
+
 To Make the user experience more pleasing; In order to do so I started looking around asking questions to friends who are also therapist with a site in place, our staff and specially our patients on what they would like to see in the site. After putting together all there ideas and researching I was able to put together a site which users would like to visit.
 
 From the feedback of the users I came to know that they are more intrested in information about the clinic and how they can get in touch with you during closed hours.
 
 So I started planning using phases 
 
-#### Phase - 1
+#### *Phase - 1*
 
 * A home page with little information of the clinic and staff.
 * An About Us page
 * Our Services page
 * Contact Us page
 
-#### Phase - 2
+#### *Phase - 2*
 
 * An appointment page (scheduling an appointment)
 * Testimonial page (feedback)
 * Insurance page (which insurances are accepted)
 
-#### Phase - 3
+#### *Phase - 3*
 
 * Interactive elements(JavaScript knowledge)
 * Web domine with a customer URL
 
+Having a phased approach to the project allows users to feel surprised when a new version is deployed with extra elements and allows me time to collect feedback and better understand flaws with my initial design or development and to help me grow. Also allows me to implement new skills I have learned and build upon the initial design.
+
+
+# **Structure Plane** 
 The first step for my research was visiting physical therapy sites and knowing different layouts, elements in navigation bar, images, quotes, text, and colors.
 
-### Colors :
+### *Colors* :
 
 * Black 
 * Grey
@@ -77,7 +112,7 @@ The first step for my research was visiting physical therapy sites and knowing d
 
 Black background to start with to make the images and text stand out more by giving the page the depth and drawing attention.
 
-### Typography :
+### *Typography* :
 
 * Itim
 * Montserrat
@@ -94,9 +129,15 @@ Hero Images which are on every page except the contact us page.  the images are 
 
 The text is consistant throughout all the pages mostly consisting information of the facility and staff. 
 
+# **Skeleton Plane**
+
 Below is a link to the initial draft of the wireframe I created for the project and an initial conceptual idea of how everything would respond on different devices.
 
 [RehabPotentialWireframe](assets/images/RehabPotentialWireframe.pdf)
+
+I also typed up all my pages beforehand to help me to proofread the content and fix the grammatical error. It also allowed me to plan my text, structure my paragraphs and condense text under subheadings.
+
+There are some differences from the wireframes to the project,
 
 * Home page contains an image with a jumbotron containing quote. The jumbotron is transparent using CSS styling.
 * The image on home page contains in - out animation which stands out when you load the page.
@@ -106,13 +147,25 @@ Below is a link to the initial draft of the wireframe I created for the project 
 * The contact us page presents with an fill up form with message. If the required fields are not filled a message will show to enter the required field. 
 * Social Media Links in the footer opens up with a new blank page and links to an account. 
 
-### Features to Implement :
+There were some other smaller changes that I decided to go ahead with I just felt made the project more aesthetically pleasing.
+
+# **Surface Plane**
+
+### *Features present across the project*
+
+* Navbar - Responsive, toggles to a hamburger menu. Colored dark grey for inactive pages and colored white for the currently active page. The main logo in the left acts also as a link back to the home page.
+* Footer - There are social media hyperlinks which can direct you to the linked page for better feedback.
+* Large Hero images to deaw the user attention. All the images are bright and colorfull specially on the service page to intorduce a fun page interaction.
+* Dark background for the users to feel less strain on the eyes while reading and also help the images pop out.
+* Different services, staff and the equipments mentioned in small paragraphs to help understand the clinic better.
+
+### *Features to Implement* :
 
 * Once understanding JavaScript, I would like to add an appointment page which can help to schedule an appointments for new clients by fill out a required forms.
 * I would like to add a counting column which would automatically counts the number of new patients added. Which will help build clinents with visual feedback.
 * I would add an signIn/ Signup page for new or existing clients who can excess there own medical documents.
 
-### Technologies Used :
+### *Technologies Used* :
 
 * [HTML](https://www.w3schools.com/)
      * used as the basic building block for the project and to structure the content.
@@ -150,13 +203,13 @@ Below is a link to the initial draft of the wireframe I created for the project 
 * [Balsamiq](https://balsamiq.com/)
      * Used to creat the wireframes for the project.
 
-## Testing
+## *Testing*
 
 **Testing User Stories from User Experience Design (UX) Section**
 
 User Story Testing
 
-#### Further Testing
+#### *Further Testing*
 
 * The project was tested in the following browsers with success, Google Chrome, Microsoft Edge, Mozilla Firefox and Opera.
 *  Projects was manually tested on Samsung Note 9, Samsung S9, Samsung TabA and Hp laptop 11 inch screen.
@@ -188,7 +241,7 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
 
      1. [Validator CSS Result](https://validator.w3.org/nu/#textarea)
 
-#### Known Bugs and Fixes
+#### *Known Bugs and Fixes*
 
 * The hero image takes a fews sec. to upload, after adjusting the time for animation it works better.
 
@@ -209,7 +262,7 @@ I used W3C Markup Validator and W3C Validator to validate every page of the proj
 * When using different mobile devices I have observed that in the about page the last paragraph drops down into the footer section. Attempted to fix it by correcting the margin-top for the paragraph.
 * In the social media links the facebook, twitter and instagram are linked to personal accounts since the company account has not been created. The linkedin link is used as a company account. 
 
-## Deployment
+## *Deployment*
 
 **GitHub**
 
@@ -241,7 +294,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 1. Press *Enter* to have the local clone created.
 
 
-## Credits
+## *Credits*
 
  **Code :**
 * Code Institute 
@@ -265,12 +318,16 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
      * thanks to an youtuber for helping with bootstrap navbar making it responsive. 
 * Images
      * Home page image :
-          * thanks to [pain free physiotherapy clinic](https://sites.google.com/site/painfreephysiotherapyindelhi/)
+          * thanks to [HipWallpaper](https://hipwallpaper.com/physical-therapy-wallpapers/)
              [Copyrights](https://support.google.com/legal/answer/3463239?hl=en)                    
      * About page image :
-          * thanks to  Dioni De Guzman,PT and [hipwallpaper](https://hipwallpaper.com/physical-therapy-desktop-backgrounds/)
+          * thanks to Highland Physiotherapy and [https://hipwallpaper.com/view/nTO61J
      * Service page image :
-          * thanks to Ryan, Cunningham and [hipwallpaper](https://hipwallpaper.com/massage-therapy-wallpapers/)    
-
+         *Tele Health*
+           thanks to [aluance digital services](https://aluance.digital/acuity/506/future-of-telemedicine-depends-on-patient-buy-in/)    
+         *Home-Care*
+           thanks to [elderly people nursing home assistance](macrovector.com)
+         *Workers Comp*
+           thanks to [freepick](https://www.freepik.com/premium-vector/character-constructor-worker-islipping-grease-illustration-concept-safety-accident-industrial-safety_9215271.htm)    
 I would like to take few seconds to thank my mentor and instructors who have put together all the videos the materials for helping all the students throught this journey. 
 ## Thank You
